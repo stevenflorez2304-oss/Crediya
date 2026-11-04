@@ -1,0 +1,12 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+plugins {
+    id 'co.com.bancolombia.cleanArchitecture.settings' version '5.0.2'
+}
+
+rootProject.name = 'crediya'
