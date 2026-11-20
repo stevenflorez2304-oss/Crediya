@@ -1,12 +1,11 @@
 pluginManagement {
     repositories {
         gradlePluginPortal()
-        mavenCentral()
     }
 }
 
 plugins {
-    id 'co.com.bancolombia.cleanArchitecture.settings' version '5.0.2'
+    id 'co.com.bancolombia.cleanArchitecture.settings' version '5.0.0-beta1'
 }
 
-rootProject.name = 'crediya'
+rootProject.name = 'crediya-autenticacion-ms'
